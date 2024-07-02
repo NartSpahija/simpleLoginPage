@@ -1,0 +1,86 @@
+body {
+    background: url(img.jpg);
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius:12px;
+    padding: 10px 20px;
+    background: transparent;
+    box-shadow: 5px 5px 10px;
+}
+
+.wrapper h2{
+    font-size: 20px;
+    color: white;
+    font-style: bold;
+
+}
+
+.input-field{
+    position:relative;
+}
+
+.input-field input[type="email"], 
+.input-field input[type="password"]{
+    border-radius:10px;
+    background:transparent;
+    margin: 15px;
+    border: 2px solid white;
+    width: 400px;
+    height: 5px;
+    padding: 20px 40px 20px 20px;
+    backdrop-filter: blur(5px);
+}
+
+input::placeholder {
+    color: white;
+}
+
+img {
+    position: relative;
+    right:176px;
+    bottom:49px;
+    color: rgb(255,255,255);
+}
+
+a.forgot {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    bottom: 90px;
+    right: 120px;
+}
+
+a.forgot:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+a.sign-up{
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+}
+
+a.sign-up:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.wrapper .login {
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius:45px;
+    width: 225px;
+    height: 30px;
+}
